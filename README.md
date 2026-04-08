@@ -19,10 +19,10 @@ I hold a Bachelor's degree in Manufacturing Engineering from UNESP and I have a 
 * **Solution:** A hybrid engine (Python/Polars for math + Go for serving).
 * **Key Achievement:** Used Redis as a low-latency state layer, ensuring the API serves calculated data in sub-millisecond time.
   
-#### 🤖 Fin Agent (In Development)
+#### 🤖 Fin Agent (In Development)(https://github.com/lavradorp/fin_agent)
 **Agentic RAG for Brazilian Financial Regulations (CVM, BACEN, B3).**
 * **Problem:** Navigating thousands of pages of complex regulatory standards.
-* **Solution:** An AI agent built with **LangGraph** that performs hybrid searches on vector databases.
+* **Solution:** An AI Agent orchestrated with LangGraph (leveraging LangChain tools) that performs intelligent routing and semantic searches across compliance vector databases.
 * **Key Tech:** Focuses on *Faithfulness* and *Source Attribution* to prevent LLM hallucinations in compliance.
 
 ### 📫 Contact me
