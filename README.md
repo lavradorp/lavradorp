@@ -26,7 +26,9 @@ Alongside that, I'm continuously building a Machine Learning Engineering portfol
 A framework for RAG agent built on LangGraph, with every component swappable via YAML.
 
 -**Problem**: LLM agent stacks usually hard-code their provider choices, so swapping an LLM, embeddings, vector store or checkpointer means rewriting application code.
+
 -**Solution**: A pluggable architecture where each component is declared in YAML and resolved at runtime.
+
 -**Key Tech**: Builder, Strategy/Factory/Registry, Facade and Decorator patterns, with Pydantic schema validation and lazy imports, so only the provider your config selects pays its startup cost.
 
 
@@ -35,5 +37,7 @@ A framework for RAG agent built on LangGraph, with every component swappable via
 A reproducible benchmark comparing XGBoost, LightGBM and CatBoost on statistical and computational trade-offs.
 
 -**Problem**: Framework comparisons usually report accuracy alone, ignoring the training time and memory cost that decide what actually ships to production.
+
 -**Solution**: A controlled benchmark running 30 independent executions per model under an identical preprocessing pipeline and data split, reporting mean and standard deviation alongside MAE, RMSE and R².
+
 -**Key Achievement**: Found that averaging RSS deltas across runs decays as 1/N instead of converging, making the memory metric meaningless, so switched to peak allocation, which exposed memory gap between frameworks that the average had hidden.
