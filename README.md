@@ -14,6 +14,7 @@ Business: Fixed Income Products, Receivables Funds, Credit, Derivatives
 🚀 Projects
 
 🤖 Agent Factory
+
 A framework RAG agent built on LangGraph, with every component swappable via YAML.
 
 Problem: LLM agent stacks usually hard-code their provider choices, so swapping an LLM, embeddings, vector store or checkpointer means rewriting application code.
@@ -21,6 +22,7 @@ Solution: A pluggable architecture where each component is declared in YAML and 
 Key Tech: Builder, Strategy/Factory/Registry, Facade and Decorator patterns, with Pydantic schema validation and lazy imports, so only the provider your config selects pays its startup cost.
 
 📊 Gradient Boosting Benchmark
+
 A reproducible benchmark comparing XGBoost, LightGBM and CatBoost on statistical and computational trade-offs.
 
 Problem: Framework comparisons usually report accuracy alone, ignoring the training time and memory cost that decide what actually ships to production.
